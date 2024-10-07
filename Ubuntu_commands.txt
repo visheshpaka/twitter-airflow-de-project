@@ -1,0 +1,12 @@
+sudo apt update  #update your package
+sudo apt upgrade #upgrade if any packages still need to be upgraded
+sudo apt install python3-venv python3-pip
+
+python3 -m venv myenv #create an environment
+source myenv/bin/activate #activate the environment
+
+pip install apache-airflow
+pip install pandas
+pip install s3fs
+
+airflow standalone  # to start the airflow server
