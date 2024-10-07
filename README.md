@@ -55,4 +55,4 @@ The DAG is scheduled to run daily to ensure that the latest data is processed.
 This project provides a scalable solution for automating the ETL process for tweet data, using Apache Airflow and AWS services. The architecture allows for easy adjustments and scalability to accommodate larger datasets in the future.
 
 ## Architecture
-<img src="Architecture">
+<img src="Architecture.png">
